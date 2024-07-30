@@ -1,0 +1,207 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  font-family: Arial, sans-serif;
+}
+
+nav.menu {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+nav.menu ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+nav.menu ul li {
+  margin: 0 10px;
+}
+
+nav.menu ul li#logo {
+  margin-right: auto; 
+}
+
+nav.menu ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 15px;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+nav.menu ul li a:hover {
+  background-color: #be5e04;
+  border-radius: 5px;
+}
+
+nav.menu ul li#logo a:hover {
+    background-color: transparent;
+}
+
+nav.menu ul li#logo img {
+  height: 50px; 
+}
+
+#title {
+  background-image: url('pic/ENP.jpg'); 
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+  padding: 200px 20px;
+  margin-top: 70px; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#title h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#title p {
+  font-size: 1.5em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  
+}
+
+section {
+  padding: 20px 20px;
+  text-align: center;
+
+}
+#img-div{
+  padding: 20px 20px;
+  text-align: center;
+}
+#about{
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#img{
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+#img-caption{
+  font-size: 1.1em;
+  text-align: justify;
+}
+#tributeinfo{
+  font-size: 1.1em;
+  text-align: justify;
+}
+
+
+.about {
+   background-color: #c2c2c2;
+}
+
+.members {
+  background: linear-gradient(to right, #9e9e9e, #f5f5f5);
+}
+
+.members .member {
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.members .member img {
+  width: 70%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.members .member:hover img {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+.members .member p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+.members .member a{
+  color: black;
+  text-decoration: none;
+}
+
+/*Wonie html*/
+.mem{
+  padding: 20px 20px;
+  margin-top: 70px;
+  text-align: center;
+}
+.mem img{
+  width: 20%;
+  height: auto;
+  border-radius: 10px;
+}
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+  margin-bottom: 20px;
+}
+.section p {
+  margin: 10px 0;
+}
+.section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.section ul li {
+  margin-bottom: 5px;
+}
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+.info-table th, .info-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.info-table th {
+  background-color: #f2f2f2;
+}
+.info-table td {
+  background-color: #fff;
+}
+.emoji {
+  font-size: 1.5em;
+}
+/* Footer styling */
+.footer {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+}
+
